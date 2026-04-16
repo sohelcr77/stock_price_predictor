@@ -5,6 +5,9 @@ import joblib
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 
+import sys
+st.write(sys.version)
+
 st.set_page_config(
     page_title="Stock Close Price Prediction",
     page_icon="📈",
